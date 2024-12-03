@@ -53,6 +53,7 @@ public class MarronDesireMain {
     /**
      * Shows the App menu
      * @return void
+     * @param p a profile object, type Profile
      */
     public void showMenu(MarronDesireProfile p){
         int option = 0; // Menu option
@@ -99,6 +100,7 @@ public class MarronDesireMain {
     /**
      * Rest menu option variable to 0 after choosing an displaying a valid option
      * @return int
+     * @param option the menu option, type int
      */
     private int resetMenu(int option){
         return option = 0;
